@@ -71,7 +71,7 @@ while playing:
     if hits:
        SCORE += 1 
     
-    while len(enemies) <10:
+    while len(enemies) <10000:
         slime = Enemy()
         all_sprites.add(slime)
         enemies.add(slime)
